@@ -9,4 +9,4 @@ Generate a pdf from images present inside a directory
 5. Delete the existing images. Add new images to the folder, and repeat the process for generating a new pdf. 
 
 ### Example:
-`./image2pdf.sh final` will generate a final.pdf in the directory
+`./image2pdf.sh final` will generate a _final.pdf_ in the directory
