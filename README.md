@@ -1,7 +1,7 @@
 # image2pdf
 Generate a pdf from all the images present inside a directory.
 
-The script requires the [imagemagick](https://imagemagick.org/) package to be installed in the Linux system.
+The script requires [imagemagick](https://imagemagick.org/) package to be installed in the Linux system.
 
 Steps to install imagemagick:
  - run `sudo apt install imagemagick`
