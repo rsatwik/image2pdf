@@ -13,4 +13,5 @@ fi
 echo "Generating $1.pdf"
 convert ./*.{jpg,jpeg,png} "$1.pdf" 2> /dev/null
 echo "$1.pdf has been generated"
+notify-send -t 10 "Opening" "$1.pdf" 
 xdg-open "$1.pdf"
