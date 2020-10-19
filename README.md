@@ -1,5 +1,11 @@
 # image2pdf
-Generate a pdf from all the images present inside a directory
+Generate a pdf from all the images present inside a directory.
+
+The script requires the [imagemagick](https://imagemagick.org/) package to be installed in the Linux system.
+
+Steps to install imagemagick:
+ - run `sudo apt install imagemagick`
+ - or one can refer to [how-to-install-imagemagick-on-ubuntu](https://www.tutorialspoint.com/how-to-install-imagemagick-on-ubuntu)
 
 ## Usage:
 1. Clone the folder onto your system
@@ -11,4 +17,4 @@ Generate a pdf from all the images present inside a directory
 ### Example:
 `./image2pdf.sh final` will generate a _final.pdf_ in the directory
 
-This folder can be used for quickly generating pdf for submissions (such as assignment submissions) from individual images of handwritten pages. 
+This folder can be used for quickly generating pdf for submissions (such as assignment submissions) from individual images of handwritten pages. Since captured images from devices such as mobile phones are named automatically in serial order, one can directly dump the images into the folder and generate the final pdf for submission. 
