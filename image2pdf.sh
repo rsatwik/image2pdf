@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 if (($# != 1)); then
     echo "usage: need name of pdf to be given as argument (without the .pdf extension)"
-    echo "./image2pdf.sh <final> :generates final.pdf"
+    echo "./image2pdf.sh final : generates final.pdf"
     exit
 fi
 
